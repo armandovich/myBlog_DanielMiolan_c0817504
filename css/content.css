@@ -114,6 +114,11 @@
         width: 100%;
     }
 
+    .extra-padding-right,
+    .extra-padding-left {
+        padding-left: 0;
+    }
+
     .content-gallery img {
         padding-bottom: 15px;
         width: 100%;
