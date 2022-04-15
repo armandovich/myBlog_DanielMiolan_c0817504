@@ -3,6 +3,22 @@ body {
     margin: 0;
 }
 
+h1,
+h2,
+p,
+a {
+    color: #fff;
+}
+
+p {
+    line-height: 2;
+    margin: 0;
+}
+
+a {
+    text-decoration: unset;
+}
+
 header {
     padding: 1.5em;
 }
@@ -44,4 +60,56 @@ footer {
 footer p {
     margin: 0 auto;
     line-height: 1;
+}
+
+main {
+    display: flex;
+    width: 100%;
+}
+
+main section {
+    padding-right: 5em;
+}
+
+main aside {
+    padding-left: 1.5em;
+    border-left: solid #000 2px;
+}
+
+.reverse-direction {
+    flex-direction: row-reverse;
+}
+
+main.reverse-direction section {
+    padding-left: 5em;
+}
+
+main.reverse-direction aside {
+    padding-left: 0em;
+    border-left: none;
+    padding-right: 1.5em;
+    border-right: solid #000 2px;
+}
+
+section,
+aside {
+    flex-grow: 1;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    position: relative;
+}
+
+section {
+    width: 80%;
+}
+
+aside {
+    width: 20%;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1440px;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
 }

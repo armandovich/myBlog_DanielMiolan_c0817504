@@ -1,0 +1,52 @@
+.image-float {
+    float: left;
+    max-width: 35em;
+    padding-bottom: 1em;
+    padding-right: 1em;
+    width: 100%;
+}
+
+.table-tech {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    margin-top: 1em;
+    width: 100%;
+}
+
+.table-tech td,
+.table-tech th {
+    border: 1px solid #000;
+    color: white;
+    padding: 8px;
+}
+
+.table-tech tr {
+    background-color: #6c757d;
+}
+
+.table-tech tr:nth-child(even){
+    background-color: #495057;
+}
+
+.table-tech tr:hover {
+    background-color: #454545;
+}
+
+.table-tech th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #000;
+}
+
+.aside-text-list {
+    color: #fff;
+}
+
+.aside-text-list a {
+    line-height: 2;
+}
+
+.aside-text-list a:hover {
+    background-color: #454545;
+}
