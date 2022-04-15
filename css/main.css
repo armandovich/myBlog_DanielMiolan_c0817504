@@ -148,3 +148,53 @@ aside {
         display: none;
     }
 }
+
+@media (max-width: 680px) {
+    header {
+        border-bottom: solid 2px #000;
+    }
+
+    nav {
+        position: fixed;
+        left: -100%;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+        z-index: 5;
+        box-shadow: unset;
+        transition: left 0.5s ease-in-out;
+    }
+
+    nav.active {
+        left: 0;
+    }
+    
+    ul.wrapper {
+        padding-top: 5em;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    nav ul li {
+        display: block;
+        width: 100%;
+    }
+
+    nav ul li:first-child {
+        border-top: solid 2px #fff;
+    }
+
+    .nav-option {
+        border-right: unset;
+        border-bottom: solid 2px #fff;
+        box-sizing: border-box;
+        color: #fff;
+        display: block;
+        padding: 1.3em 2em;
+        text-transform: uppercase;
+        text-decoration: none;
+        transition: background-color 0.5s ease-in-out;
+        width: 100%;
+    }
+    
+}
