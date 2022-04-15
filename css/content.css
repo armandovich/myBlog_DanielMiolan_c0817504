@@ -92,3 +92,19 @@
 .extra-padding-left {
     padding-left: 1em;
 }
+
+.content-gallery {
+    display: flex;
+    font-size: 0;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.content-gallery img {
+    display: inline-block;
+    height: auto;
+    width: 32%;
+}
