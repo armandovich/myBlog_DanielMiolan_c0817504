@@ -113,4 +113,9 @@
     .content-col-half {
         width: 100%;
     }
+
+    .content-gallery img {
+        padding-bottom: 15px;
+        width: 100%;
+    }
 }
