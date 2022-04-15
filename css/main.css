@@ -2,3 +2,12 @@ body {
     background-color: #454545;
     margin: 0;
 }
+
+header {
+    padding: 1.5em;
+}
+
+.logo {
+    display: block;
+    height: 4.5em;
+}
