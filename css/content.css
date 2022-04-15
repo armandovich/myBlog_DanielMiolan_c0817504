@@ -108,3 +108,9 @@
     height: auto;
     width: 32%;
 }
+
+@media (max-width: 800px) {
+    .content-col-half {
+        width: 100%;
+    }
+}
